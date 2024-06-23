@@ -3,33 +3,33 @@
 // Enable or disable serial monitor for libraries, not impelmented
 #define ENABLE_SERIAL_COMMUNICATION 1
 
-// Enable neopixel indications for important event
-#define NEOPIXEL_INDICATIONS
-/*------------------------------------
-Magenta:    WiFi connected successfully
-Red:        Attempt MQTT reconnect
-Green:      MQTT reconnect attempt success
-Blue:       -
-/ -----------------------------------*/
+// // Enable neopixel indications for important event
+// #define NEOPIXEL_INDICATIONS
+// /*------------------------------------
+// Magenta:    WiFi connected successfully
+// Red:        Attempt MQTT reconnect
+// Green:      MQTT reconnect attempt success
+// Blue:       -
+// / -----------------------------------*/
 
 // Enable internal EEPROM memory, REQUIRED
 #define ENABLE_MEMORY
 
-// -----------------------------------
-// Enable robot motors
-#define ENABLE_MOTORS
+// // -----------------------------------
+// // Enable robot motors
+// #define ENABLE_MOTORS
 
-#ifdef ENABLE_MOTORS
-// Select one of the below 2 options
-// #define DRIVE_SERVO // not fully tested yet
-#define DRIVE_PWM
+// #ifdef ENABLE_MOTORS
+// // Select one of the below 2 options
+// // #define DRIVE_SERVO // not fully tested yet
+// #define DRIVE_PWM
 
-#define WHEEL_ENCODER
-#endif
-// -----------------------------------
+// #define WHEEL_ENCODER
+// #endif
+// // -----------------------------------
 
-// Enable NeoPixel Ring
-#define ENABLE_NEOPIXEL_RING
+// // Enable NeoPixel Ring
+// #define ENABLE_NEOPIXEL_RING
 
 // Enable VL53LX0 ToF Sensor
 #define ENABLE_DISTANCE_SENSOR
@@ -38,11 +38,13 @@ Blue:       -
 // #define DISTANCE_GP2Y0A21YK0F
 #define DISTANCE_VL53LX0
 
-// Enable TCS34725 Color sensor
-#define ENABLE_COLOR_SENSOR
+// // Enable TCS34725 Color sensor
+// #define ENABLE_COLOR_SENSOR
 
-// Enable GY-511 compass + accelerometer
-#define ENABLE_COMPASS_SENSOR
+// // -----------------------------------
+// // Enable GY-511 compass + accelerometer
+// #define ENABLE_COMPASS_SENSOR
+// // -----------------------------------
 
 // Enable PCF8564 I2C port expander
 // #define ENABLE_EXTERNAL_PORT
