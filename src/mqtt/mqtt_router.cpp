@@ -62,21 +62,21 @@ void mqtt_onMessageArrived(char *topic, byte *message, unsigned int length)
             Serial.printf("\n>> topic:\t %s \n>> msg:\t\t %s\n", topic, msg);
          }
       }
-      else if (String(g[2]).equals("color"))
-      {
-         // v1/sensor/color
+      // else if (String(g[2]).equals("color"))
+      // {
+      //    // v1/sensor/color
 
-         if (!String(g[3]).equals("") && atoi(g[3]) == mqtt_robot_id)
-         {
-            // v1/sensor/color/{robotId}
-            mqtt_color_handle(msg);
-         }
-         else
-         {
-            Serial.println("color sensor message");
-            Serial.printf("\n>> topic:\t %s \n>> msg:\t\t %s\n", topic, msg);
-         }
-      }
+      //    if (!String(g[3]).equals("") && atoi(g[3]) == mqtt_robot_id)
+      //    {
+      //       // v1/sensor/color/{robotId}
+      //       mqtt_color_handle(msg);
+      //    }
+      //    else
+      //    {
+      //       Serial.println("color sensor message");
+      //       Serial.printf("\n>> topic:\t %s \n>> msg:\t\t %s\n", topic, msg);
+      //    }
+      // }
    }
    else if (String(g[1]).equals("comm"))
    {

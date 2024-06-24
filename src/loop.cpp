@@ -48,11 +48,11 @@ void loopModes()
     // Mode 3 --------------------------------------------------------------
     case MODE3:
         // What should happen on mode 3
-        delay(2000);
-        motors.write(200, 200);
+        // delay(2000);
+        // motors.write(200, 200);
 
-        // distance_read();
-        // delay(10000);
+        distance_read();
+        delay(5000);
         // mode = BEGIN;
 
         break;

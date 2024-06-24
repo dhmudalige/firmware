@@ -15,5 +15,5 @@ typedef struct Color
 extern uint8_t color_lock;
 extern struct Color color_virt;
 
-void mqtt_color_handle(char *msg);
-void color_read(color_t *color);
+// void mqtt_color_handle(char *msg);
+// void color_read(color_t *color);

@@ -368,5 +368,5 @@ void SW_TCS34725::setIntLimits(uint16_t low, uint16_t high){}
 void SW_TCS34725::test(){
     Serial.println(F(">> ColorSensor\t:disabled"));
 }
-void SW_TCS34725::getColor(uint16_t *r, uint16_t *g, uint16_t *b, uint16_t *c){}
+// void SW_TCS34725::getColor(uint16_t *r, uint16_t *g, uint16_t *b, uint16_t *c){}
 #endif
